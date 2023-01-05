@@ -5,12 +5,14 @@ Bootstrap Sample Partition and Selected Ensemble Learning System: Distributed En
 
 ## Preview
 ```
-
+![image](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP0.png)
 ```
 
 ## Prerequisites
 
 ```
+All experiments in this paper are conducted on a Spark distributed cluster. The specific cluster configuration is: Spark distributed cluster has 32 host nodes, of which 24 hosts have two 16Cores, 2.6GHZ Intel Xeon E5-2650 CPUs, and 128GB of memory, while its 8 hosts have two 12Cores, 2.6GHZ Intel Xeon E5-2630 CPUs, and 128GB of memory. CPUs, and 128GB of RAM, and each host node has 30TB of hard drive capacity.
+
 # Node OS：
 
 OperatingSystem = CentOS 
