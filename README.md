@@ -4,9 +4,16 @@ Bootstrap Sample Partition and Selected Ensemble Learning System: Distributed En
 本项目为基于Spark + Bootstrap的分布式数据模型（Bootstrap Sample Partition，BSP）以及基于BSP数据模型的分布式集成学习方法的系统工程开源代码。
 
 ## Preview
-```
-![image](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP0.png)
-```
+
+Launch effect-1:
+
+![image1](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP0.png)
+
+![image2](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP1.png)
+
+![image3](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP2.png)
+
+![image4](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP3.png)
 
 ## Prerequisites
 
