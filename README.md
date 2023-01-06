@@ -46,10 +46,36 @@ This two commands can directly accomplish two things, as follows
 1. Compile the code to form a dist directory, which will contain the compiled targets for each project
 2. package the dist into a TGZ file to form a release version
 
+if you want to just compile one package:
+
+add " -pl core "  in the command 3 to reduce the compilation time and avoid compiling the whole spark project multiple times.
+
 #Deploying a new version in a cluster:
 
+1 cp /home/xxx/spark-2.4.0/conf/spark-env.sh.template /home/xxx/spark-2.4.0/conf/spark-env.sh
 
+add into spark-env.sh:
 
+HIVE_CONF_DIR=/etc/hive/conf
+HADOOP_CONF_DIR=/etc/hadoop/conf
+YARN_CONF_DIR=/etc/hadoop/conf
+
+2 vim ~/.bashrc
+
+export SPARK_HOME=/where/your/spark/path
+export HADOOP_CONF_DIR=/etc/hadoop/conf
+export HADOOP_HOME=/opt/cloudera/parcels/CDH
+
+eg.
+
+export SPARK_HOME=~/spark-2.4.0-bin-hadoop-3.2-hive-2.3
+export HADOOP_CONF_DIR=/etc/hadoop/conf
+export HADOOP_HOME=/opt/cloudera/parcels/CDH
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle-cloudera/
+export PATH=$JAVA_HOME/bin:$PATH
+alias sudo = 'sudo env PATH=$PATH'
+
+3 source ~/.bashrc
 ```
 
 ## Preview
