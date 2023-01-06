@@ -1,7 +1,7 @@
 # Spark-BSP-SEL
 Bootstrap Sample Partition and Selected Ensemble Learning System: Distributed Ensemble Learning Bootstrap Samples Based.
 
-本项目为基于Spark + Bootstrap的分布式数据模型（Bootstrap Sample Partition，BSP）以及基于BSP数据模型的分布式集成学习方法的系统工程开源代码。
+本项目为基于Spark + Bootstrap的分布式数据模型（Bootstrap Sample Partition，BSP）以及基于BSP数据模型的分布式选择性集成学习方法的系统工程开源代码。
 
 ## Prerequisites
 
@@ -25,6 +25,33 @@ ScalaVersion = 2.11.12
 HDFSReplicationFactor = 3
 HDFSBlockSize = 128MB
 ```
+
+## Quick Start
+To set up Spark-BSP-SEL, all nodes of your distributed cluster should be have a right environment.
+
+```
+#Compilation and Packaging:
+
+Since Spark development is very active and java can be compiled on a variety of platforms, Spark is very easy to compile, but requires the following.
+1. bash environment
+2. JAVA_HOME environment variable
+
+commands:
+
+1 cd \Spark-BSP-SEL\spark-2.4.0 with BSP
+2 ./build/mvn clean
+3 ./dev/make-distribution.sh --name hadoop-3.2-hive-2.3 --tgz -Phadoop-3.2 -Phive-2.3 -Phive-thriftserver -Pyarn -DskipTests
+
+This two commands can directly accomplish two things, as follows
+1. Compile the code to form a dist directory, which will contain the compiled targets for each project
+2. package the dist into a TGZ file to form a release version
+
+#Deploying a new version in a cluster:
+
+
+
+```
+
 ## Preview
 
 BSP mode is already integrated into Apache-Spark2.4.0 now.
@@ -35,12 +62,14 @@ Launch effect-1: spark-shell --version
 
 Launch effect-2: spark-shell --bsp-mode true
 
+scala> sc.getConf.get("spark.bsp")
+
 ![image2](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP1.png)
 
 Launch effect-3: pyspark --bsp-mode true
 
 ![image3](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP2.png)
 
-Launch effect-3: spark-shell --help
+Launch effect-4: spark-shell --help
 
 ![image4](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP3.png)
