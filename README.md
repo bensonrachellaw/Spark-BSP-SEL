@@ -1,7 +1,7 @@
 # Spark-BSP-SEL
 Bootstrap Sample Partition and Selected Ensemble Learning System: Distributed Ensemble Learning Bootstrap Samples Based.
 
-本项目为基于Spark + Bootstrap的分布式数据模型（Bootstrap Sample Partition，BSP）以及基于BSP数据模型的分布式选择性集成学习方法的系统工程开源代码。
+本项目为 · 基于Spark + Bootstrap的分布式数据模型（Bootstrap Sample Partition，BSP）以及基于BSP数据模型的分布式选择性集成学习方法 · 的系统工程开源代码。
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ HDFSBlockSize = 128MB
 To set up Spark-BSP-SEL, all nodes of your distributed cluster should be have a right environment.
 
 ```
-#Compilation and Packaging:
+##Compilation and Packaging:
 
 Since Spark development is very active and java can be compiled on a variety of platforms, Spark is very easy to compile, but requires the following.
 1. bash environment
@@ -46,11 +46,11 @@ This two commands can directly accomplish two things, as follows
 1. Compile the code to form a dist directory, which will contain the compiled targets for each project
 2. package the dist into a TGZ file to form a release version
 
-if you want to just compile one package:
+if you want to just compile only one package, such as core:
 
 add " -pl core "  in the command 3 to reduce the compilation time and avoid compiling the whole spark project multiple times.
 
-#Deploying a new version in a cluster:
+##Deploying a new version in a cluster:
 
 1 cp /home/xxx/spark-2.4.0/conf/spark-env.sh.template /home/xxx/spark-2.4.0/conf/spark-env.sh
 
