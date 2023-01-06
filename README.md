@@ -27,12 +27,20 @@ HDFSBlockSize = 128MB
 ```
 ## Preview
 
-Launch effect-1:
+BSP mode is already integrated into Apache-Spark2.4.0 now.
+
+Launch effect-1: spark-shell --version
 
 ![image1](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP0.png)
 
+Launch effect-2: spark-shell --bsp-mode true
+
 ![image2](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP1.png)
 
+Launch effect-3: pyspark --bsp-mode true
+
 ![image3](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP2.png)
+
+Launch effect-3: spark-shell --help
 
 ![image4](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP3.png)
