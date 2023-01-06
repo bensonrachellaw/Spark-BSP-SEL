@@ -76,6 +76,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 alias sudo = 'sudo env PATH=$PATH'
 
 3 source ~/.bashrc
+
+**if you don't want to compile the Spark-BSP-SEL project , you can download the 
+release directly and deploy.
 ```
 
 ## Preview
