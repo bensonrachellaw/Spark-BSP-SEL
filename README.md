@@ -93,6 +93,8 @@ use mvn compile
 
 get ./bsp/target/spark-bsp_2.11-2.4.0.jar
 
+`spark-shell --master yarn --deploy-mode cluster --name NAME --jars spark-bsp_2.11-2.4.0.jar spark-bsp_2.11-2.4.0.jar`
+
 ## Preview
 
 BSP mode is already integrated into Apache-Spark2.4.0 now.
