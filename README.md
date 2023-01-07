@@ -91,7 +91,7 @@ use mvn compile
 
 `mvn -T 1C  clean package -Dmaven.test.skip=true`
 
-get ./rsp/target/spark-bsp_2.11-2.4.0.jar
+get ./bsp/target/spark-bsp_2.11-2.4.0.jar
 
 ## Preview
 
