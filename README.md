@@ -93,7 +93,9 @@ use mvn compile
 
 get ./bsp/target/spark-bsp_2.11-2.4.0.jar
 
-`spark-shell --master yarn --deploy-mode cluster --name NAME --jars spark-bsp_2.11-2.4.0.jar spark-bsp_2.11-2.4.0.jar`
+Start the Spark-BSP-SEL
+
+`spark-shell --bsp-mode true --master yarn --deploy-mode cluster --name NAME --jars spark-bsp_2.11-2.4.0.jar spark-bsp_2.11-2.4.0.jar`
 
 ## Preview
 
