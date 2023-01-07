@@ -31,8 +31,6 @@ To set up Spark-BSP-SEL, all nodes of your distributed cluster should be have a 
 
 **Compilation and Packaging:**
 ```
-
-
 Since Spark development is very active and java can be compiled on a variety of platforms, Spark is very easy to compile, but requires the following.
 1. bash environment
 2. JAVA_HOME environment variable
