@@ -77,8 +77,7 @@ alias sudo = 'sudo env PATH=$PATH'
 
 3 source ~/.bashrc
 
-**if you don't want to compile the Spark-BSP-SEL project , you can download the 
-release directly and deploy.
+**if you don't want to compile the Spark-BSP-SEL source code project , you can download the release directly and deploy.
 ```
 
 ## Preview

@@ -1,0 +1,313 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes
+compile options:
+5 items
+0 -> -unchecked
+1 -> -deprecation
+2 -> -feature
+3 -> -explaintypes
+4 -> -Yno-adapted-args
+javac options:
+12 items
+00 -> -source
+01 -> 1.8
+02 -> -target
+03 -> 1.8
+04 -> -Xlint:all,-serial,-path,-try
+05 -> -g
+06 -> -target
+07 -> 1.8
+08 -> -source
+09 -> 1.8
+10 -> -encoding
+11 -> UTF-8
+compiler version:
+1 items
+0 -> 2.11.12
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+18 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$2.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$3.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$4.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$5.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$1.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$2.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$3.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$1.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$2.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$3.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$1.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$2.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$3.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$1$$anonfun$1.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$1.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$2.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$.class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore.class
+binary dependencies:
+5 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\L6BD610_Luo\.m2\repository\org\clapper\classutil_2.11\1.1.2\classutil_2.11-1.1.2.jar
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+18 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$2
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$3
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$4
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$5
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getClasses$1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getClasses$2
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getClasses$3
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getInnerFunctions$1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getInnerFunctions$2
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getInnerFunctions$3
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$2
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$3
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$privateWithin$1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$privateWithin$1$$anonfun$1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$privateWithin$2
+used names:
+161 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> !=
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> +
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ++
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ++=
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> +=
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> <byname>
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> <init>
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> <repeated>
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ?0
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> A
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Any
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> AnyRef
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Array
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ArrayOps
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ArraySeq
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> B
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Boolean
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> CanBuildFrom
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Char
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> CharSequence
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Class
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ClassFinder
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ClassInfo
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ClassLoader
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ClassSymbol
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ClassTag
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Codec
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Coll
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> DummyImplicit
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> File
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Function1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> GenTraversableOnce
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> GenerateMIMAIgnore
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> HashSet
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Iterable
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Iterator
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> JavaUniverse
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> MatchError
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> MemberScope
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Method
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Mirror
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ModuleSymbol
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Nothing
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Object
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Path
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Predef
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> RuntimeClass
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Seq
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Set
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Stream
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> String
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> StringOps
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Symbol
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> T
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> T1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> T2
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> That
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Thread
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Throwable
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> TraversableOnce
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Try
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Tuple2
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Type
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> U
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> Unit
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> _$1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> _$4
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> _$7
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> _1
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> _2
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> apache
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> apply
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> augmentString
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> c
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> canBuildFrom
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> clapper
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> classLoader
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> className
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> classSymbol
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> classes
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> classutil
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> collection
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> contains
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> currentThread
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> directlyPrivateSpark
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> dummyImplicit
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> empty
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> endsWith
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> fallbackCanBuildFrom
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> fallbackSystemCodec
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> filter
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> filterNot
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> finder
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> flatMap
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> forName
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> foreach
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> fullName
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> getAnnotatedOrPackagePrivateMembers
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> getClasses
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> getContextClassLoader
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> getInnerFunctions
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> getMethods
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> getName
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> getOrElse
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ignoredClasses
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ignoredMembers
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> immutable
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> indirectlyPrivateSpark
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> indirectlyPrivateSpark$lzy
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> io
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> isPackagePrivate
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> isPackagePrivateModule
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> isPrivate
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> java
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> lang
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> lines
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> map
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> materializeClassTag
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> maybeOuter
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> members
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> mirror
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> mkString
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> moduleSymbol
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> mutable
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> name
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ne
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> nsc
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> package
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> packageName
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> previousContents
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> previousMembersContents
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> println
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> privateClasses
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> privateMembers
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> privateWithin
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> refArrayOps
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> reflect
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> replace
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> runtime
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> runtimeMirror
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> scala
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> shouldExclude
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> spark
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> startsWith
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> staticModule
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> string2path
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> sym
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> takeWhile
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> toSet
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> toString
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> tools
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> typeSignature
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> unary_!
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> unchecked
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> universe
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> unv
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> util
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> writeAll
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> x
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> ||
+product stamps:
+18 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$2.class -> lastModified(1672925860160)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$3.class -> lastModified(1672925860166)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$4.class -> lastModified(1672925860170)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$5.class -> lastModified(1672925860174)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$1.class -> lastModified(1672925860178)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$2.class -> lastModified(1672925860182)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$3.class -> lastModified(1672925860186)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$1.class -> lastModified(1672925860193)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$2.class -> lastModified(1672925860211)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$3.class -> lastModified(1672925860221)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$1.class -> lastModified(1672925860227)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$2.class -> lastModified(1672925860237)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$3.class -> lastModified(1672925860241)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$1$$anonfun$1.class -> lastModified(1672925860260)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$1.class -> lastModified(1672925860256)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$2.class -> lastModified(1672925860265)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$.class -> lastModified(1672925860146)
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore.class -> lastModified(1672925860100)
+source stamps:
+1 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> hash(e250dd98d15743b12d69f0be276995415e7212ab)
+binary stamps:
+5 items
+C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar -> lastModified(1626706185121)
+C:\Users\L6BD610_Luo\.m2\repository\org\clapper\classutil_2.11\1.1.2\classutil_2.11-1.1.2.jar -> lastModified(1601201974055)
+C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar -> lastModified(1601200712915)
+C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar -> lastModified(1601192115731)
+C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar -> lastModified(1601191836641)
+class names:
+5 items
+C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar -> java.lang.Object
+C:\Users\L6BD610_Luo\.m2\repository\org\clapper\classutil_2.11\1.1.2\classutil_2.11-1.1.2.jar -> org.clapper.classutil.ClassInfo
+C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar -> scala.tools.nsc.io.package$
+C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar -> scala.collection.Seq$
+C:\Users\L6BD610_Luo\.m2\repository\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar -> scala.reflect.io.File
+internal apis:
+1 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwxErL1wAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwRHYueXQABm5vdGlmeXNxAH4ADPhzKcx0AAR3YWl0c3EAfgAM/vCOdXQADSRhc0luc3RhbmNlT2ZzcQB+AAzoPFYddAAGZXF1YWxzc3EAfgAMqsttt3QADGFzSW5zdGFuY2VPZnNxAH4ADCPwuMJ0AAxzeW5jaHJvbml6ZWRzcQB+AAzYiwTEdAANJGlzSW5zdGFuY2VPZnNxAH4ADMQRs/90ABJHZW5lcmF0ZU1JTUFJZ25vcmVzcQB+AAxI7wMCdAAEbWFpbnNxAH4ADJGjsu90AAlub3RpZnlBbGxzcQB+AAwwUMSndAAMaXNJbnN0YW5jZU9mc3EAfgAMVAiI7HQAAj09c3EAfgAMbLXRtXQABWNsb25lc3EAfgAMVoMionQAEWdldElubmVyRnVuY3Rpb25zc3EAfgAMCzQoYnQACHRvU3RyaW5nc3EAfgAMtC9RTnQAAiE9c3EAfgAMtBxq13QACGdldENsYXNzc3EAfgAMioCqVnQAAm5lc3EAfgAMjk7mIXQAAmVxc3EAfgAMp1AipHQAAiMjc3EAfgAM+hJncnQACGZpbmFsaXplc3EAfgAMpRLeoHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAKW9yZy5hcGFjaGUuc3BhcmsudG9vbHMuR2VuZXJhdGVNSU1BSWdub3JldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYHNxAH4AW3VxAH4APgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ARHEAfgBNdXEAfgBOAAAAAHNxAH4AUABxAH4AH3VxAH4AUwAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AX3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ae3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGh4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFZ0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AG9bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AF9zcQB+AG50AAVBcnJheXEAfgB0dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AG50AAZTdHJpbmdzcQB+AHJzcQB+AHV1cQB+AHgAAAADc3EAfgB6dAAEamF2YXNxAH4AenQABGxhbmdxAH4Af3NxAH4AW3VxAH4APgAAAABzcQB+AFt1cQB+AJMAAAACc3EAfgBudAAGT2JqZWN0cQB+AJdzcQB+AG50AANBbnlxAH4AdHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAFm9yZy5hcGFjaGUuc3BhcmsudG9vbHNzcQB+AKh0ABBvcmcuYXBhY2hlLnNwYXJrc3EAfgCodAAKb3JnLmFwYWNoZXNxAH4AqHQAA29yZ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABhYImxjt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABGRDpcQlNQVGFnU3Bhcmtcc3BhcmstMi40LjBcc3BhcmstMi40LjBcdG9vbHNcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOJQ3ZjRV0OxLWnwvidplUFechKr
+external apis:
+0 items
+source infos:
+1 items
+D:\BSPTagSpark\spark-2.4.0\spark-2.4.0\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABhYImxjt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARkQ6XEJTUFRhZ1NwYXJrXHNwYXJrLTIuNC4wXHNwYXJrLTIuNC4wXHRvb2xzXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEv
