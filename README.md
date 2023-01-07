@@ -97,6 +97,15 @@ Start the Spark-BSP-SEL
 
 `spark-shell --bsp-mode true --master yarn --deploy-mode cluster --name NAME --jars spark-bsp_2.11-2.4.0.jar spark-bsp_2.11-2.4.0.jar`
 
+code example
+
+```
+
+Import Context Package:
+
+scala> import org.apache.spark.sql.BspContext._
+```
+
 ## Preview
 
 BSP mode is already integrated into Apache-Spark2.4.0 now.
