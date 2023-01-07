@@ -29,8 +29,9 @@ HDFSBlockSize = 128MB
 ## Quick Start
 To set up Spark-BSP-SEL, all nodes of your distributed cluster should be have a right environment.
 
-```
 **Compilation and Packaging:**
+```
+
 
 Since Spark development is very active and java can be compiled on a variety of platforms, Spark is very easy to compile, but requires the following.
 1. bash environment
@@ -49,9 +50,9 @@ This two commands can directly accomplish two things, as follows
 if you want to just compile only one package, such as core:
 
 add " -pl core "  in the command 3 to reduce the compilation time and avoid compiling the whole spark project multiple times.
-
+```
 **Deploying a new version in a cluster:**
-
+```
 1 cp /home/xxx/spark-2.4.0/conf/spark-env.sh.template /home/xxx/spark-2.4.0/conf/spark-env.sh
 
 add into spark-env.sh:
@@ -77,9 +78,8 @@ alias sudo = 'sudo env PATH=$PATH'
 
 3 source ~/.bashrc
 
-**if you don't want to compile the Spark-BSP-SEL source code project , you can download the release package directly and deploy.
 ```
-
+if you don't want to compile the Spark-BSP-SEL source code project , you can download the release package directly and deploy.
 ## Preview
 
 BSP mode is already integrated into Apache-Spark2.4.0 now.
