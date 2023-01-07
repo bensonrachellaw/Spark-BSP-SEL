@@ -89,11 +89,13 @@ Launch effect-1: spark-shell --version
 
 Launch effect-2: spark-shell --bsp-mode true
 
-scala> sc.getConf.get("spark.bsp")
+`scala> sc.getConf.get("spark.bsp")`
 
 ![image2](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP1.png)
 
 Launch effect-3: pyspark --bsp-mode true
+
+`python>>> sc.getConf().get("spark.bsp")`
 
 ![image3](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP2.png)
 
