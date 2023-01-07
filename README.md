@@ -79,6 +79,20 @@ alias sudo = 'sudo env PATH=$PATH'
 ```
 If you don't want to compile the Spark-BSP-SEL source code project , you can download the `release` package directly and deploy.
 
+## BSP-Usage
+
+Packaging method：
+
+get into folder
+
+`cd ./bsp`
+
+use mvn compile
+
+`mvn -T 1C  clean package -Dmaven.test.skip=true`
+
+get ./rsp/target/spark-bsp_2.11-2.4.0.jar
+
 ## Preview
 
 BSP mode is already integrated into Apache-Spark2.4.0 now.
