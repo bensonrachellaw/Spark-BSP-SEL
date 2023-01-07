@@ -85,13 +85,13 @@ Packaging method：
 
 get into folder
 
-`cd ./bsp`
+`cd ./spark-2.4.0 with BSP/bsp`
 
 use mvn compile
 
 `mvn -T 1C  clean package -Dmaven.test.skip=true`
 
-get ./bsp/target/spark-bsp_2.11-2.4.0.jar
+get ./spark-2.4.0 with BSP/bsp/target/spark-bsp_2.11-2.4.0.jar
 
 Start the Spark-BSP-SEL
 
