@@ -104,7 +104,7 @@ Start the Spark-BSP-SEL
 scala> import org.apache.spark.sql.BspContext._
 import org.apache.spark.sql.RspContext._
 ```
-- Use bspTextFile to read in data (there are 10 files in total, and the size of each file is about 292MB). You can see that it is a bspRDD type.
+- Use bspTextFile to read in data (there are 10 files in total, and the size of each file is about 292MB). You can see that it is a BspRDD type.
 ```
 scala> val rdd2=spark.sparkContext.bspTextFile("/user/luokaijing/Bootstrap_RSP_blocks_in_jars/call_data.csv")
 rdd2 = BspRDD[2] at RDD at BspRDD.scala:10
@@ -127,6 +127,11 @@ val data = spark.sparkContext.textFile(path,4)
 - Convert 15 BSP blocks, Non Broadcast method for producing BSPs
 ```
 val rdd_BSP_toBSP1 = data.toBSPCore(15)
+```
+- Get the block number of rdd_BSP_toBSP1
+```
+scala> rdd_BSP_toBSP1.getNumPartitions
+15
 ```
 - In dataframe format, bspRead supports most format imports
 ```
