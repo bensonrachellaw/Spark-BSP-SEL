@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.bytedeco:arpack-ng-platform:3.8.0-1.5.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/arpack-ng-platform/3.8.0-1.5.7/arpack-ng-platform-3.8.0-1.5.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/arpack-ng-platform/3.8.0-1.5.7/arpack-ng-platform-3.8.0-1.5.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/arpack-ng-platform/3.8.0-1.5.7/arpack-ng-platform-3.8.0-1.5.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
