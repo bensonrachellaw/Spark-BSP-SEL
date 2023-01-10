@@ -83,17 +83,17 @@ If you don't want to compile the Spark-BSP-SEL source code project , you can dow
 
 Packaging method：
 
-get into folder
+get into folder.
 
 `cd ./spark-2.4.0 with BSP/bsp`
 
-use mvn compile
+use mvn compile : will use 1 thread per available CPU core. (Speed up)
 
-`mvn -T 1C  clean package -Dmaven.test.skip=true`
+`mvn -T 1C clean package -Dmaven.test.skip=true`
 
 get ./spark-2.4.0 with BSP/bsp/target/spark-bsp_2.11-2.4.0.jar
 
-Start the Spark-BSP-SEL
+Start the Spark-BSP-SEL.
 
 `spark-shell --bsp-mode true --master yarn --deploy-mode cluster --name NAME --jars spark-bsp_2.11-2.4.0.jar spark-bsp_2.11-2.4.0.jar`
 

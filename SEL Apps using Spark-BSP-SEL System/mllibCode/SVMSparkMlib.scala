@@ -18,8 +18,26 @@ import scala.collection.mutable
 
 
 //使用client部署模式的话 driver在提交任务的节点（本机）上启动，返回值也会返回到本机，所以能显示出最后的返回值，如果使用cluster就不会，因为cluster模式是在集群中任意选择一个worker来启动driver。
-//本地编译打包命令：mvn -T 1C  clean package -Dmaven.test.skip=true
+//本地编译打包命令：mvn -T 1C clean package -Dmaven.test.skip=true
 //C:\Program Files\Git\bin\bash.exe 、"cmd.exe" /k "bash.exe"
+
+/**
+ * mvn clean package依次执行了clean、resources、compile、testResources、testCompile、test、jar(打包)等７个阶段。
+ * mvn clean install依次执行了clean、resources、compile、testResources、testCompile、test、jar(打包)、install等8个阶段。
+ * mvn clean deploy依次执行了clean、resources、compile、testResources、testCompile、test、jar(打包)、install、deploy等９个阶段。
+ * 
+ * 由上面的分析可知主要区别如下：
+
+ * package命令完成了项目编译、单元测试、打包功能，但没有把打好的可执行jar包（war包或其它形式的包）布署到本地maven仓库和远程maven私服仓库
+ * install命令完成了项目编译、单元测试、打包功能，同时把打好的可执行jar包（war包或其它形式的包）布署到本地maven仓库，但没有布署到远程maven私服仓库
+ * deploy命令完成了项目编译、单元测试、打包功能，同时把打好的可执行jar包（war包或其它形式的包）布署到本地maven仓库和远程maven私服仓库
+ * 
+ * maven的package和install的区别：
+
+ * 1、package就是打成可以运行的jar/war包；
+
+ * 2、install包含package，并且把jar包放入本地maven仓库中。
+ */
 
 
 //svmAccuracy = 0.9186520196818858
