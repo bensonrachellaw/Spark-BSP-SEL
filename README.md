@@ -106,7 +106,7 @@ Start the Spark-BSP-SEL.
 - Import Context Package:
 ```
 scala> import org.apache.spark.sql.BspContext._
-import org.apache.spark.sql.RspContext._
+import org.apache.spark.sql.BspContext._
 ```
 - Use bspTextFile to read in data (there are 10 files in total, and the size of each file is about 292MB). You can see that it is a BspRDD type.
 ```
