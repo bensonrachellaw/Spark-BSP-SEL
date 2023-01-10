@@ -120,7 +120,7 @@ scala> rdd2.getNumPartitions
 ```
 - Quality selection step, providing functions for removing some blocks
 ```
-scala> val rdd4 = rdd2.getSubPartitions(5)
+scala> val rdd4 = rdd2.getSubBspPartitions(5)
 rdd4 = SonBspRDD[3] at RDD at BspRDD.scala:10
 ```
 - Read data in native mode
