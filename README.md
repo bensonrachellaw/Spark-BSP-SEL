@@ -53,6 +53,10 @@ add " -pl core "  in the command 3 to reduce the compilation time and avoid comp
 ```
 1 cp /home/xxx/spark-2.4.0/conf/spark-env.sh.template /home/xxx/spark-2.4.0/conf/spark-env.sh
 
+eg.
+
+cp /home/luokaijing/spark-2.4.0-bin-hadoop-3.2-hive-2.3/conf/spark-env.sh.template /home/luokaijing/spark-2.4.0-bin-hadoop-3.2-hive-2.3/conf/spark-env.sh
+
 add into spark-env.sh:
 
 HIVE_CONF_DIR=/etc/hive/conf
@@ -149,23 +153,23 @@ testRDD.count()
 ## Preview
 
 BSP mode is already integrated into Apache-Spark2.4.0 now.
-
+```
 Launch effect-1: spark-shell --version
-
+```
 ![image1](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP0.png)
-
+```
 Launch effect-2: spark-shell --bsp-mode true
-
+```
 `scala> sc.getConf.get("spark.bsp")`
 
 ![image2](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP1.png)
-
+```
 Launch effect-3: pyspark --bsp-mode true
-
+```
 `python>>> sc.getConf().get("spark.bsp")`
 
 ![image3](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP2.png)
-
+```
 Launch effect-4: spark-shell --help
-
+```
 ![image4](https://github.com/benson08230539/Spark-BSP-SEL/blob/main/images/BSP3.png)
