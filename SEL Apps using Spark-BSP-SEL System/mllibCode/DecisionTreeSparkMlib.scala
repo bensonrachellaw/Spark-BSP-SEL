@@ -7,7 +7,7 @@ import org.apache.spark.ml.linalg.Vectors
 import org.apache.spark.sql.{DataFrame, Row}
 import org.apache.spark.sql.types.{IntegerType, StructField, StructType}
 import org.apache.spark.utils.SparkUtils
-import org.apache.spark.sql.RspContext._
+import org.apache.spark.sql.BspContext._
 
 import scala.collection.mutable
 import scala.util.Random

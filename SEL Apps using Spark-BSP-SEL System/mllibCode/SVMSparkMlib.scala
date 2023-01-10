@@ -4,7 +4,7 @@ import org.apache.spark.ml.classification.LinearSVC
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.linalg.SQLDataTypes.VectorType
 import org.apache.spark.ml.linalg.Vectors
-import org.apache.spark.sql.RspContext._
+import org.apache.spark.sql.BspContext._
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.{DataFrame, Row}
 import org.apache.spark.utils.SparkUtils
@@ -15,15 +15,20 @@ import scala.collection.mutable
 //spark-submit --class org.apache.spark.Bspml.BspBinaryClassificationSVM --master yarn --deploy-mode cluster --name BspBinaryClassificationSVM --jars spark-bsp_2.11-2.4.0.jar spark-bsp_2.11-2.4.0.jar
 //spark-submit --class org.apache.spark.Bspml.BspBinaryClassificationSVM --master yarn --deploy-mode cluster --jars spark-rsp_2.11-2.4.0.jar spark-rsp_2.11-2.4.0.jar
 //spark-submit --class org.apache.spark.Bspml.BspBinaryClassificationSVM --master yarn --deploy-mode client --jars spark-rsp_2.11-2.4.0.jar spark-rsp_2.11-2.4.0.jar
-//使用client部署模式的话 driver在提交任务的节点（本机）上启动，返回值也会返回到本机，所以能显示出最后的返回值，如果使用cluster就不会，因为cluster模式是在集群中任意选择一个worker来启动driver。
-//svmAccuracy = 0.9186520196818858
 
+
+//使用client部署模式的话 driver在提交任务的节点（本机）上启动，返回值也会返回到本机，所以能显示出最后的返回值，如果使用cluster就不会，因为cluster模式是在集群中任意选择一个worker来启动driver。
 //本地编译打包命令：mvn -T 1C  clean package -Dmaven.test.skip=true
 //C:\Program Files\Git\bin\bash.exe 、"cmd.exe" /k "bash.exe"
+
+
+//svmAccuracy = 0.9186520196818858
 
 /**
  * Created by luokaijing on 2021/10/28 14:47
  */
+
+
 object SVMSparkMlib {
   def main(args: Array[String]): Unit = {
     val spark = SparkUtils.autoSettingEnvAndGetSession(SparkUtils.sparkConf(this.getClass.getSimpleName))

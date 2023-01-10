@@ -20,7 +20,7 @@ object DataTrans {
     val dataFrame = spark
       .read.format("csv")
       .option("header", "true")
-      .load("D:\\课程资料\\WeChat Files\\wxid_vhq0r8oj7xm111\\FileStorage\\File\\2022-12\\winequality-red.csv")
+      .load("***\\winequality-red.csv")
       .toDF("fixed acidity","volatile acidity","citric acid","residual sugar","chlorides","free sulfur dioxide","total sulfur dioxide","density","pH","sulphates","alcohol","label")
       .withColumn("fixed acidity",column("fixed acidity").cast("Double"))
       .withColumn("volatile acidity",column("volatile acidity").cast("Double"))
@@ -36,7 +36,8 @@ object DataTrans {
       .withColumn("label",column("label").cast("Double"))
 
 
-    // 封装dataFrame成(feature,label)形式
+    // 封装dataFrame成(feature,label)形式。
+
     val dataFrameModify = new VectorAssembler()
       .setInputCols(Array("fixed acidity","volatile acidity","citric acid","residual sugar","chlorides","free sulfur dioxide","total sulfur dioxide","density","pH","sulphates","alcohol"))
       .setOutputCol("feature")
@@ -54,7 +55,7 @@ object DataTrans {
     BspDF_input.printSchema()
     BspDF_input.head(1)
     println(BspDF_input.head(1).mkString("Array(", ", ", ")"))
-    BspDF_input.write.parquet("D:\\论文工作_每周报告\\数据\\wine.parquet")
+    BspDF_input.write.parquet("***\\wine.parquet")
     spark.stop()
   }
 }
