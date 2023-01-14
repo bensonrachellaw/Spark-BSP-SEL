@@ -12,4 +12,4 @@
 
 Statistical Machine Intelligence & Learning Engine:`https://github.com/haifengl/smile` 
 
-
+The BSP data model generation and sub-model modeling of this method adopt the distributed parallel computing of non-MapReduce computing paradigm, and the calculation of each data block is completed independently, which reduces the data communication between computing nodes and greatly improves the computing efficiency.
