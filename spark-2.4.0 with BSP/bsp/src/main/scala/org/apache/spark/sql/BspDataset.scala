@@ -1,6 +1,6 @@
 package org.apache.spark.sql
 
-import org.apache.spark.rsp.BspRDD
+import org.apache.spark.bsp.BspRDD
 import org.apache.spark.sql.catalyst.plans.logical.CatalystSerde
 import org.apache.spark.sql.execution.QueryExecution
 

@@ -4,7 +4,7 @@ import cn.edu.szu.bigdata.BspInputFormat
 import org.apache.spark.api.java.JavaRDD
 import org.apache.hadoop.io.{LongWritable, Text}
 import org.apache.spark.rdd.RDD
-import org.apache.spark.rsp.{BspRDD, SonBspRDD}
+import org.apache.spark.bsp.{BspRDD, SonBspRDD}
 import org.apache.spark.{Partition, Partitioner, SparkContext}
 import scala.collection.mutable.ArrayBuffer
 import scala.reflect.ClassTag

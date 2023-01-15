@@ -1,4 +1,4 @@
-package org.apache.spark.rsp
+package org.apache.spark.bsp
 
 import org.apache.spark.{Partition, TaskContext}
 import org.apache.spark.rdd.RDD

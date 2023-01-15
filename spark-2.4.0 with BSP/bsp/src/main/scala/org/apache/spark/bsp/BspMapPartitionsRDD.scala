@@ -1,4 +1,4 @@
-package org.apache.spark.rsp
+package org.apache.spark.bsp
 
 import org.apache.spark.{Partition, SPARK_BRANCH, SparkEnv, TaskContext}
 import org.apache.spark.rdd.{DeterministicLevel, RDD}
@@ -22,7 +22,7 @@ class BspMapPartitionsRDD[U: ClassTag, T: ClassTag](
   override def getPartitions: Array[Partition] = firstParent[T].partitions
 
   override def compute(split: Partition, context: TaskContext): Iterator[U] =
-    f(context, split.index, rspIterator(split, context))
+    f(context, split.index, bspIterator(split, context))
 
   /**
    * 返回的是Partition对应blockID物理存储位置的迭代器
@@ -30,7 +30,7 @@ class BspMapPartitionsRDD[U: ClassTag, T: ClassTag](
    * @param context
    * @return
    */
-  private def rspIterator(split: Partition, context: TaskContext): Iterator[String] = {
+  private def bspIterator(split: Partition, context: TaskContext): Iterator[String] = {
     val blockId = RDDBlockId(id, split.index)
     val file=SparkEnv.get.blockManager.diskBlockManager.getFile(blockId)
 
