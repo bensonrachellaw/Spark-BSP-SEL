@@ -1,7 +1,7 @@
 # Spark-BSP-SEL System
 Bootstrap Sample Partition and Selected Ensemble Learning System: Distributed Ensemble Learning Bootstrap Samples Based using Spark as Backend.
 
-本项目为深圳大学 · 大数据研究所 · 基于Spark + Bootstrap的分布式大数据模型（Bootstrap Sample Partition，BSP）以及基于BSP大数据模型的分布式选择性集成学习方法 · 的系统工程开源代码。
+本項目為深圳大學 · 大數據技术与应用研究所 · 基於Spark + Bootstrap的分佈式大數據模型（Bootstrap Sample Partition，BSP）以及基於BSP大數據模型的分佈式選擇性集成學習方法 · 的繫統工程開源代碼。
 
 ## Prerequisites
 
