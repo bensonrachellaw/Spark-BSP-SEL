@@ -3,6 +3,8 @@ Bootstrap Sample Partition and Selected Ensemble Learning System: Distributed En
 
 本項目為深圳大學 · 大數據技術與應用研究所 · 基於Spark + Bootstrap的分佈式大數據糢型（Bootstrap Sample Partition，BSP）以及基於BSP大數據糢型的分佈式選擇性集成學習方法 · 的係統工程開源代碼。
 
+![avatar](images/BSP.jpg)
+
 ## Prerequisites
 
 ```
